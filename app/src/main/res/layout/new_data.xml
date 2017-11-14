@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:id="@+id/username"
+        android:maxLength="30"
+        android:hint="请输入账号"
+
+
+        android:inputType="text"
+        android:maxLines="1"
+
+
+
+    />
+    <!-- 这个属性可以指定输入法enter的功能，actionNext - 下一步   -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:maxLength="30"
+        android:id="@+id/userpassword"
+        android:hint="请输入密码"
+
+        android:maxLines="1"
+        android:inputType="textPassword"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:maxLength="30"
+        android:id="@+id/userdetail"
+        android:hint="请输入备注"
+
+        android:maxLines="1"
+        android:inputType="text"
+        />
+
+
+
+
+
+</LinearLayout>
